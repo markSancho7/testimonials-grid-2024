@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: grey;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 320px);
+    gap: 10px;
+    width: 1300px;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.purpelCard{
+    grid-column: 1/4;
+    grid-row:1/2;
+    background-color:#A775F1;
+}
+.greyCard{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #48556A;
+}
+.blackCard{
+    grid-column: 2/4;
+    grid-row: 2/2;
+    background-color: #000000;
+}
+.whiteTallCard{
+    grid-column: 4/4;
+    grid-row: 1/2;
+    background-color: white;
+}
+.whiteShortCard{
+    grid-column: 1/4;
+    grid-row: 2/2;
+    background-color: white;
+}
+.letterBlack{
+    color: black;
+}
+
+.cardLarge{
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cardLarge__userContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cardLarge__userImg{
+    height: 45px;
+    border-radius: 100%;
+    border: solid 2px #A775F1;
+}
+.cardLarge__userName{
+    font-size: 15px;
+    color: white;
+}
+.cardLarge__veirfied{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.609);
+}
+.cardLarge__title{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight:550;
+    color: white;
+}
+.cardLarge__description{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.583);
+}
+.cardShort{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cardShort__userContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cardShort__userImg{
+    height: 45px;
+    border-radius: 100%;
+}
+.cardShort__userName{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cardShort__veirfied{
+    font-size: 13px;
+}
+.cardShort__title{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight:550;
+}
+.cardShort__description{
+    margin-top: 20px;
+}
+
+
+.cardTall{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    padding-block: 20px;
+    padding-inline: 30px;
+    border-radius: 20px;
+}
+.cardTall__userContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cardTall__userImg{
+    height: 45px;
+    border-radius: 100%;
+}
+.cardTall__userName{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.cardTall__veirfied{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.609);
+}
+.cardTall__title{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight:550;
+    color: rgb(0, 0, 0);
+}
+.cardTall__description{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.583);
+}
+.letterWhite{
+    color: white;
+}
+.letterWhiteTransparent{
+    color: rgba(255, 255, 255, 0.639);
+}
+
